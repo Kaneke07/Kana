@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <style>
+    .o {
+      background-image: url("https://img.freepik.com/free-vector/white-background-with-polygonal-shapes_1048-5001.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1724803200&semt=ais_hybrid");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .r {
+      text-align: center;
+    }
+    .home {
+      background-color: aqua;
+    }
+    .ab {
+      background-color: aqua;
+    }
+    .re {
+      background-color: aqua;
+    }
+    .pr {
+      background-color: aqua;
+    }
+    .co {
+      background-color: aqua;
+    }
+  </style>
+
+  <body class="o">
+    <section>
+      <h1>Contact Me</h1>
+      <form action="submit-form.php" method="post">
+        <fieldset>
+          <legend>Contact Form</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <br /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <br /><br />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <br /><br />
+          <input type="submit" value="Send Message" />
+        </fieldset>
+      </form>
+
+      <h2>Find Me Here</h2>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=..."
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+    <br />
+    <nav class="r">
+      <button class="home"><a href="./index.html">Home</a></button>
+      <button class="ab"><a href="./About me.html">About Me</a></button>
+      <button class="re"><a href="./Resume.html">Resume</a></button>
+      <button class="pr"><a href="./projects.html">Projects</a></button>
+      <button class="co"><a href="./contact.html">Contact</a></button>
+    </nav>
+  </body>
+</html>
